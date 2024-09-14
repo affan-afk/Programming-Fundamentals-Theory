@@ -1,2 +1,4 @@
+Approach:
+Multiplying the input by conversion factors of kilometres to miles and seconds to hours.
 
-![WhatsApp Image 2024-09-14 at 10 53 04 PM (1)](https://github.com/user-attachments/assets/e4f0096e-8020-446f-b1d6-ef535e56c563)
+![WhatsApp Image 2024-09-14 at 10 53 04 PM](https://github.com/user-attachments/assets/47ccc318-e3cb-420d-993d-6c3b203ec11b)
