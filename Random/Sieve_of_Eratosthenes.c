@@ -1,5 +1,5 @@
 #include <stdio.h>
-void sieve(int n){
+void sieve_of_eratosthenes(int n){
     int prime[n];
     int i = 0;
     while (i < n)
@@ -31,5 +31,5 @@ void sieve(int n){
 	int x;
 	printf("Enter a number upto which you want to print prime numbers : ");
 	scanf("%d",&x);
-        sieve(x);
+        sieve_of_eratosthenes(x);
     }
