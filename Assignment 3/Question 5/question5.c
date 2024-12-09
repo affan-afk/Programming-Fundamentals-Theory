@@ -133,7 +133,7 @@ int main() {
                 display_species(species, pets_in_heart);
                 break;
             case 0:
-                printf("Exiting...\n");
+                printf("GoodBye!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!\n");
                 return 0;
             default:
                 printf("Invalid Choice!\n");
