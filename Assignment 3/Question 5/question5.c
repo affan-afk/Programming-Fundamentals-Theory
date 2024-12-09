@@ -133,15 +133,6 @@ int main() {
                 display_species(species, pets_in_heart);
                 break;
             case 0:
-                // Free all allocated memory before exiting
-                for (int i = 0; i < species; i++) {
-                    for (int j = 0; j < pets_in_heart[i].n_supplies; j++) {
-                        free(pets_in_heart[i].speciesSupplies[j]);
-                    }
-                    free(pets_in_heart[i].speciesSupplies);
-                    free(pets_in_heart[i].name);
-                }
-                free(pets_in_heart);
                 printf("Exiting...\n");
                 return 0;
             default:
